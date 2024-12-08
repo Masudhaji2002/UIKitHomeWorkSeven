@@ -78,7 +78,6 @@ class ViewController: UIViewController, ViewControllerProtocol {
     
 }
 
-// MARK: - UITableViewDataSource
 
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

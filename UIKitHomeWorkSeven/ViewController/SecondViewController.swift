@@ -45,7 +45,7 @@ class SecondViewController: UIViewController {
         return $0
     }(UIView())
     
-    // Таблица
+    
     lazy var tableViewCard: UITableView = {
         $0.dataSource = self
         $0.register(ShowDetails.self, forCellReuseIdentifier: ShowDetails.identifier)
